@@ -13,13 +13,6 @@ const port = 5000;
 
 http
   .createServer((req, res) => {
-    let data = "my name is garvit dhameliya";
-    console.log("server  started");
-
-    res.write("hello world");
-
-    res.write(data);
-
-    res.end();
+    console.log("server started");
   })
   .listen(port);
